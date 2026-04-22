@@ -25,7 +25,7 @@ Para que el entorno agéntico funcione correctamente y las reglas tengan efecto 
 Lo ideal es tenerlo en la raíz de tu directorio de trabajo principal (por ejemplo, ~/git/).
 
 ```Bash
-git clone [URL_DEL_REPOSITORIO] ~/git/RSA-Agent-Workspace
+git clone git@github.com:RedSismicaAustro/RSA-Agent-Workspace.git
 ```
 ### 2. Configuración del Workspace Raíz:
 En lugar de abrir proyectos individuales en el IDE agéntico, abre tu directorio padre (ej. ~/git/) como el entorno de trabajo principal.
