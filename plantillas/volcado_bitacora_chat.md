@@ -5,6 +5,8 @@ Ignora cualquier interacción trivial y céntrate exclusivamente en el valor de 
 Genera el resultado estrictamente con la siguiente estructura Markdown, generando el nombre del tema basado en el tema central de la conversacion, y utilizando la siguiente fecha:
 [INSERTA LA FECHA AQUÍ]
 
+# Nombre del archivo: [FECHA]_[descripcion_corta_tema].md
+
 # Registro de Sesión: [TEMA]
 
 # Actividad del [FECHA]
@@ -19,4 +21,3 @@ Genera el resultado estrictamente con la siguiente estructura Markdown, generand
 
 **Scripts/Comandos relevantes:**
 [Aquí debes incluir bloques de código con las configuraciones, scripts de Bash, JSON o archivos Markdown que hayamos creado durante la sesión. Usa la sintaxis de bloques de código adecuada para cada lenguaje]
----
