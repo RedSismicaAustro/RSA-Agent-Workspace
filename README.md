@@ -12,6 +12,7 @@ RSA-Agent-Workspace/
 ├── .agents/                    # Directorio de configuración nativa del IDE
 │   ├── rules/                  # Reglas de comportamiento (ej. restricciones de ejecución)
 │   └── skills/                 # Habilidades y flujos de trabajo (ej. guardar contexto)
+├── plantillas/                 # Plantillas para la generación de documentos varios
 ├── sesiones/                   # Memoria episódica (Historial de chats y contextos)
 │   └── YYYY/                   # Subdividido por año y mes
 │       └── MM/
