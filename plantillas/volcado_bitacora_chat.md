@@ -2,7 +2,8 @@ Actúa como un analista técnico de sistemas. Por favor, analiza todo el context
 
 Ignora cualquier interacción trivial y céntrate exclusivamente en el valor de ingeniería. 
 
-Genera el resultado estrictamente con la siguiente estructura Markdown, utilizando la fecha "[INSERTA LA FECHA AQUÍ]":
+Genera el resultado estrictamente con la siguiente estructura Markdown, generando el nombre del tema basado en el tema central de la conversacion, y utilizando la siguiente fecha:
+[INSERTA LA FECHA AQUÍ]
 
 # Registro de Sesión: [TEMA]
 
