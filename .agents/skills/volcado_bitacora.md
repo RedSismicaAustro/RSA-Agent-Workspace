@@ -19,6 +19,7 @@
 
 3. **Escritura en Sistema de Archivos (Local):**
    - Si el archivo `.md` no existe en la ruta calculada, créalo.
+   - No incluyas la ejecucion de rules y skills, solo los cambios realizados en los archivos del proyecto.
    - Para cada día de actividad detectado, inserta un bloque con el siguiente formato, asegurándote de usar `append` para no sobreescribir:
 
      ```markdown
