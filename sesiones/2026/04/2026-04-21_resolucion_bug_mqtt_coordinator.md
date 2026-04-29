@@ -1,3 +1,8 @@
+---
+fecha: 2026-04-21
+temas: [mqtt, bugfix, telemetria]
+entorno: [acelerografo]
+---
 ## Registro del 2026-04-21 a las 17:03:44
 
 **Resumen Técnico:**

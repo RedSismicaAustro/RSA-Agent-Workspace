@@ -1,3 +1,8 @@
+---
+fecha: 2026-01-28
+temas: [drive, logging, bugfix]
+entorno: [acelerografo]
+---
 # Actividad del 2026-01-28
 
 **Hitos de la jornada:**

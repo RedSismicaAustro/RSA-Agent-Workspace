@@ -1,3 +1,8 @@
+---
+fecha: 2026-04-23
+temas: [sensor, ultrasonico, dsp, esp32]
+entorno: [edge-device]
+---
 # Registro de Sesión: Evolución y Migración de Sensor Ultrasónico a Arquitectura Edge DSP
 
 # Actividad del 2026-04-23

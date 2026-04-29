@@ -1,3 +1,8 @@
+---
+fecha: 2026-02-24
+temas: [venv, dependencias, documentacion]
+entorno: [acelerografo]
+---
 # Actividad del 2026-02-24
 
 **Hitos de la jornada:**

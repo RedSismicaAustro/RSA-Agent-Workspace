@@ -1,3 +1,8 @@
+---
+fecha: 2026-02-11
+temas: [migracion, os, dependencias, venv]
+entorno: [acelerografo]
+---
 # Registro de Sesión: Migración de Sistema Operativo y Resolución de Librerías
 
 # Actividad del 2026-02-11

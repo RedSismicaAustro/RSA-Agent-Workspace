@@ -1,3 +1,8 @@
+---
+fecha: 2026-02-23
+temas: [vpn, cloudflare, venv, git]
+entorno: [acelerografo]
+---
 # Registro de Sesión: Conectividad Remota y Organización de Código
 
 # Actividad del 2026-02-23

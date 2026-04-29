@@ -1,3 +1,8 @@
+---
+fecha: 2026-02-03
+temas: [mqtt, refactorizacion, telemetria]
+entorno: [acelerografo]
+---
 # Actividad del 2026-02-03
 
 **Hitos de la jornada:**

@@ -1,3 +1,8 @@
+---
+fecha: 2026-01-15
+temas: [logging, mseed]
+entorno: [acelerografo]
+---
 # Actividad del 2026-01-15
 
 **Hitos de la jornada:**

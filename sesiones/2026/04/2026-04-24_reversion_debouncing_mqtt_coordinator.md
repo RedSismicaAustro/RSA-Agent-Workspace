@@ -1,3 +1,8 @@
+---
+fecha: 2026-04-24
+temas: [mqtt, bugfix, redes]
+entorno: [acelerografo]
+---
 # Actividad del 2026-04-24
 
 **Hitos de la jornada:**

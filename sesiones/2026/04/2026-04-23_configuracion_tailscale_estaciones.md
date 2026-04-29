@@ -1,3 +1,8 @@
+---
+fecha: 2026-04-23
+temas: [vpn, tailscale, redes, conectividad]
+entorno: [acelerografo]
+---
 # Registro de Sesión: Conectividad Remota con Tailscale en Estaciones Sísmicas
 
 # Actividad del 2026-04-23
