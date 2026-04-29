@@ -5,6 +5,12 @@ Ignora cualquier interacción trivial y céntrate exclusivamente en el valor de 
 Genera el resultado estrictamente con la siguiente estructura Markdown, generando el nombre del tema basado en el tema central de la conversacion, y utilizando la siguiente fecha:
 [INSERTA LA FECHA AQUÍ]
 
+---
+fecha: [FECHA]
+temas: [Analiza la conversación y extrae de 1 a 4 palabras clave como mqtt, kicad, hardware, etc.]
+entorno: [Deja esto en blanco]
+---
+
 # Nombre del archivo: [FECHA]_[descripcion_corta_tema].md
 
 # Registro de Sesión: [TEMA]
