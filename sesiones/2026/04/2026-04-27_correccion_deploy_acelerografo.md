@@ -1,7 +1,7 @@
 ---
 fecha: 2026-04-27
 temas: [deploy, scripts, bash]
-entorno: [acelerografo-DEV01]
+entorno: [acelerografo]
 ---
 # Actividad del 2026-04-27
 

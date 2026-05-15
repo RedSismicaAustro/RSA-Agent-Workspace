@@ -1,7 +1,7 @@
 ---
 fecha: 2026-05-11
 temas: [mqtt, mseed, telemetria, scripts]
-entorno: [acelerografo-DEV00]
+entorno: [acelerografo]
 ---
 # Actividad del 2026-05-11
 
