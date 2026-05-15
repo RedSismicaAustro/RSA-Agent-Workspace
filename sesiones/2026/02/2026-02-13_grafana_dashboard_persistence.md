@@ -1,7 +1,7 @@
 ---
 fecha: 2026-02-13
 temas: [grafana, influxdb, dashboards, flux]
-entorno: [server-ubuntu]
+entorno: [tig]
 ---
 # Actividad del 2026-02-13
 
