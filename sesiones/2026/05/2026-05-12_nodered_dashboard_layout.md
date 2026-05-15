@@ -1,7 +1,7 @@
 ---
 fecha: 2026-05-12
 temas: [node-red, docker, mqtt, ui]
-entorno: [server-ubuntu]
+entorno: [tig]
 ---
 # Actividad del 2026-05-12
 

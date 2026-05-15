@@ -1,7 +1,7 @@
 ---
 fecha: 2026-05-14
 temas: [grafana, telegraf, influxdb, bugfix]
-entorno: [server-ubuntu]
+entorno: [tig]
 ---
 # Actividad del 2026-05-14
 

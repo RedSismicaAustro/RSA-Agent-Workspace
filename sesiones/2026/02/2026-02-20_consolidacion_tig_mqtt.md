@@ -1,7 +1,7 @@
 ---
 fecha: 2026-02-20
 temas: [tig, mqtt, docker, documentacion]
-entorno: [server-ubuntu]
+entorno: [tig]
 ---
 # Actividad del 2026-02-20
 
