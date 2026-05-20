@@ -2,7 +2,7 @@
 proyecto: acelerografo
 tipo: contexto_tecnico
 repositorio: RSA-Acelerografo
-script: scripts/operation/mseed/binary_to_mseed.py
+archivo: scripts/operation/mseed/binary_to_mseed.py
 temas: [mseed, obspy, numpy, structured_logger]
 ---
 

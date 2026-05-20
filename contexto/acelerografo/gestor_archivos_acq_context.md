@@ -2,7 +2,7 @@
 proyecto: acelerografo
 tipo: contexto_tecnico
 repositorio: RSA-Acelerografo
-script: scripts/operation/drive/gestor_archivos_acq.py
+archivo: scripts/operation/drive/gestor_archivos_acq.py
 temas: [google-drive, backup, logging, structured_logger]
 ---
 # gestor_archivos_acq.py — Contexto para Agentes IA

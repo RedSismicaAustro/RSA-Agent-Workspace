@@ -2,7 +2,7 @@
 proyecto: acelerografo
 tipo: contexto_tecnico
 repositorio: RSA-Acelerografo
-script: scripts/operation/mqtt/mqtt_coordinator.py
+archivo: scripts/operation/mqtt/mqtt_coordinator.py
 temas: [mqtt, telemetria, daemon, hardware]
 ---
 # mqtt_coordinator.py — Contexto para Agentes IA

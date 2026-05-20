@@ -1,23 +1,22 @@
 ---
 proyecto: [Nombre del entorno/proyecto, ej. acelerografo]
 tipo: contexto_tecnico
-repositorio: [nombre del repositorio]
-script: [Ruta del script en producción, ej. scripts/operation/mqtt/mqtt_coordinator.py]
-temas: [lista de temas de interés, ej. mqtt, telemetria, daemon]
+archivo: [Ruta del archivo en producción, ej. scripts/operation/mqtt/mqtt_coordinator.py]
+temas: [lista de temas de interés, ej. mqtt, telemetria, docker]
 ---
-# [Nombre del Script o Módulo] — Contexto para Agentes IA
+# [Nombre del Archivo o Componente] — Contexto para Agentes IA
 
-> [Breve descripción de una línea sobre el propósito del script]
+> [Breve descripción de una línea sobre el propósito del archivo/componente]
 
-**Ruta**: `[Ruta del script]`
-**LOC**: [Líneas de código aproximadas] | **Lenguaje**: [ej. Python 3] | **Dependencias**: [ej. paho-mqtt, python-dotenv]
-**Proceso**: [ej. Daemon gestionado por Supervisor / Ejecución manual / Cron job]
+**Ruta**: `[Ruta del archivo]`
+**LOC**: [Líneas de código/configuración aproximadas] | **Lenguaje/Formato**: [ej. Python 3 / C / YAML (Docker Compose)] | **Dependencias/Imágenes**: [ej. paho-mqtt, python:3.9-slim]
+**Proceso**: [ej. Daemon gestionado por Supervisor / Contenedores Docker / Ejecución manual / Cron job]
 
 ---
 
-## Arquitectura / Flujo de Trabajo
+## Arquitectura / Estructura de Servicios
 
-[Breve descripción de la arquitectura del script]
+[Breve descripción de la arquitectura o la estructura de servicios del componente]
 
 ```mermaid
 [Diagrama mermaid si aplica]
@@ -27,15 +26,15 @@ temas: [lista de temas de interés, ej. mqtt, telemetria, daemon]
 
 ## Configuraciones / Variables de Entorno
 
-[Detallar archivos de configuración o variables de entorno requeridas]
+[Detallar archivos de configuración, variables de entorno, puertos, volúmenes, etc.]
 
 ---
 
-## Componentes / Clases / Funciones Clave
+## Componentes / Funciones / Servicios Clave
 
 | Elemento | Descripción |
 |----------|-------------|
-| `nombre_funcion()` | [Descripción de lo que hace] |
+| `funcion_o_servicio` | [Descripción de lo que hace] |
 
 ---
 

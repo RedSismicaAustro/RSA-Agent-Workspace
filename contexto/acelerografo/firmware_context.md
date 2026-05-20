@@ -2,7 +2,7 @@
 proyecto: acelerografo
 tipo: contexto_tecnico
 repositorio: RSA-Acelerografo
-script: scripts/firmware/
+archivo: scripts/firmware/
 temas: [firmware, dspic, spi, gps, rtc]
 ---
 # Firmware dsPIC33EP — Contexto para Agentes IA

@@ -37,10 +37,11 @@ Bajo el directorio `.agents/skills/` se encuentran las automatizaciones nativas 
   - Sigue las instrucciones de [consulta_historica.md](file:///c:/Users/miltonrsa/Documents/Proyectos-RSA/Git/RSA-Agent-Workspace/.agents/skills/consulta_historica.md).
   - **Estrategia de Carga**: Primero, lee el **Contexto Técnico** en `contexto/` para entender las especificaciones y arquitectura del script. Segundo, lee las **Sesiones** relacionadas en `sesiones/` para entender los últimos cambios/decisiones cronológicas.
 
-- **Generar Contexto Técnico de Script**:
-  - Se activa con el comando: **"genera el contexto del script [nombre_script.ext]"** (o similares).
+- **Generar Contexto Técnico de Archivo/Componente**:
+  - Se activa con el comando: **"genera el contexto de [nombre_archivo.ext]"** o **"genera el contexto del componente [nombre_archivo.ext]"** (o similares).
   - Sigue las instrucciones de [generar_contexto.md](file:///c:/Users/miltonrsa/Documents/Proyectos-RSA/Git/RSA-Agent-Workspace/.agents/skills/generar_contexto.md).
-  - Analiza el script indicado y crea un archivo estructurado en la carpeta `docs/context/` del respectivo proyecto, agregando metadatos YAML e indexándolo si corresponde.
+  - Analiza el archivo indicado (código C/Python, docker-compose.yml, etc.) y crea un archivo estructurado en la carpeta `docs/context/` del respectivo proyecto, agregando metadatos YAML e indexándolo si corresponde.
+
 
 
 ---

@@ -2,7 +2,7 @@
 proyecto: acelerografo
 tipo: contexto_tecnico
 repositorio: RSA-Acelerografo
-script: scripts/operation/acelerografo/registro_continuo_4.5.0.c
+archivo: scripts/operation/acelerografo/registro_continuo_4.5.0.c
 temas: [adquisicion, spi, c, named-pipe]
 ---
 # registro_continuo_4.5.0.c — Contexto para Agentes IA

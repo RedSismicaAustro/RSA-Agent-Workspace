@@ -2,7 +2,7 @@
 proyecto: acelerografo
 tipo: contexto_tecnico
 repositorio: RSA-Acelerografo
-script: scripts/operation/mseed/extract_segment.py
+archivo: scripts/operation/mseed/extract_segment.py
 temas: [mseed, obspy, dsp]
 ---
 # extract_segment.py — Contexto para Agentes IA
