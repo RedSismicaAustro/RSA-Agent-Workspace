@@ -1,3 +1,11 @@
+---
+proyecto: acelerografo
+tipo: contexto_tecnico
+repositorio: RSA-Acelerografo
+script: scripts/operation/mseed/binary_to_mseed.py
+temas: [mseed, obspy, numpy, structured_logger]
+---
+
 # binary_to_mseed.py — Contexto para Agentes IA
 
 > Script Python que convierte archivos binarios `.dat` (tramas de 2506 bytes del acelerógrafo) a formato miniSEED usando ObsPy. Soporta 4 modos de operación y utiliza logging estructurado.

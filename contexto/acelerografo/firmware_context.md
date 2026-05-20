@@ -1,3 +1,10 @@
+---
+proyecto: acelerografo
+tipo: contexto_tecnico
+repositorio: RSA-Acelerografo
+script: scripts/firmware/
+temas: [firmware, dspic, spi, gps, rtc]
+---
 # Firmware dsPIC33EP — Contexto para Agentes IA
 
 > Firmware embebido en dsPIC33EP256MC202 a 80 MHz. Adquiere datos del acelerómetro ADXL355, sincroniza tiempo con GPS/RTC/RPi, y transmite tramas de 2506 bytes a la Raspberry Pi vía SPI.

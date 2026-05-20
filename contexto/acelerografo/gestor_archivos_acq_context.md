@@ -1,3 +1,10 @@
+---
+proyecto: acelerografo
+tipo: contexto_tecnico
+repositorio: RSA-Acelerografo
+script: scripts/operation/drive/gestor_archivos_acq.py
+temas: [google-drive, backup, logging, structured_logger]
+---
 # gestor_archivos_acq.py — Contexto para Agentes IA
 
 > Script Python que gestiona almacenamiento de archivos binarios (`.dat`) y miniSEED (`.mseed`) en el sistema de adquisición sísmica. Opera en dos modos: **online** (subida a Google Drive + retención + control de espacio) y **offline** (maximiza almacenamiento local). Soporta modo dry-run para simulación.

@@ -1,3 +1,10 @@
+---
+proyecto: acelerografo
+tipo: contexto_tecnico
+repositorio: RSA-Acelerografo
+script: scripts/operation/acelerografo/registro_continuo_4.5.0.c
+temas: [adquisicion, spi, c, named-pipe]
+---
 # registro_continuo_4.5.0.c — Contexto para Agentes IA
 
 > Programa C de adquisición sísmica continua que corre en Raspberry Pi. Interfaz SPI con dsPIC33EP para capturar datos del acelerómetro ADXL355. Escribe archivos binarios `.dat` y transmite tramas por named pipe.

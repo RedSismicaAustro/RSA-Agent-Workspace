@@ -11,14 +11,16 @@
    - Tu primera acción OBLIGATORIA es leer el contenido del archivo `/home/rsa/git/rsa/RSA-Agent-Workspace/exocortex/indice_tematico.md`.
 
 2. **Selección de Archivos:**
-   - Cruza la consulta del usuario con las categorías y temas del índice. 
-   - Extrae únicamente las rutas de los archivos `.md` que coincidan con la solicitud.
-   - Si la consulta es por fechas (ej. "la semana pasada"), verifica los nombres de los archivos en las rutas, ya que contienen la fecha (`YYYY-MM-DD`).
+   - Cruza la consulta del usuario con las categorías del índice (`Contextos Técnicos`, `Historial de Sesiones por Entorno`, `Historial de Sesiones por Tema`).
+   - Si la consulta se refiere a un entorno o script específico, extrae el archivo de **Contexto Técnico** relevante (por ejemplo, `contexto/acelerografo/mqtt_coordinator_context.md`) y las bitácoras de **Sesiones** relacionadas con ese tema/entorno.
+   - Si la consulta es sobre un historial de cambios o fechas (ej. "qué se hizo la semana pasada"), prioriza los archivos de `sesiones/`.
+   - Si la consulta es sobre la funcionalidad de un código en producción (ej. "cómo funciona el extractor de miniSEED"), prioriza el archivo correspondiente en `contexto/`.
 
-3. **Carga Estrictamente Necesaria (Fase de Lectura):**
-   - Una vez identificadas las rutas (máximo 3 a 5 archivos para no desbordar el contexto), lee el contenido de esos archivos específicos.
+3. **Carga de Archivos (Fase de Lectura):**
+   - Para consultas técnicas de código, lee primero el archivo de **Contexto Técnico** para establecer la base semántica de la arquitectura y el comportamiento esperado del script.
+   - Lee a continuación los archivos de **Sesiones** correspondientes (máximo 3 a 5 archivos en total para evitar desbordar el contexto de la IA) para entender los cambios o decisiones de diseño más recientes que afectan a dicho código.
 
 4. **Síntesis y Respuesta:**
-   - Analiza el contenido recuperado.
-   - Responde a la pregunta del usuario de forma directa y técnica.
-   - Incluye al final de tu respuesta las referencias a los archivos leídos (ej. *Fuentes consultadas: sesiones/2026/04/archivo.md*).
+   - Sintetiza la información integrando la explicación técnica actual (del contexto) con las decisiones/cambios históricos (de las sesiones).
+   - Responde a la pregunta de forma directa, rigurosa y técnica en español.
+   - Incluye al final de la respuesta las referencias explícitas a los archivos leídos (ej: *Fuentes consultadas: contexto/acelerografo/mqtt_coordinator_context.md, sesiones/2026/05/2026-05-11_extraccion_remota_mqtt.md*).

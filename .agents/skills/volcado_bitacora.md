@@ -61,17 +61,23 @@
      ```markdown
      # Índice de Conocimiento RSA
      
-     ## Entornos
+     ## Contextos Técnicos (Código y Arquitectura)
+     - **acelerografo**: contexto/acelerografo/archivo_context.md
+     
+     ## Historial de Sesiones por Entorno
      - **acelerografo-DEV00**: sesiones/2026/04/archivo_a.md, sesiones/2026/04/archivo_b.md
      - **server-ubuntu**: sesiones/2026/04/archivo_c.md
      
-     ## Temas
+     ## Historial de Sesiones por Tema
      - **mqtt**: sesiones/2026/04/archivo_a.md, sesiones/2026/04/archivo_b.md
      - **GPD**: sesiones/2026/04/archivo_d.md
      ```
-   - **Regla de Inserción:** - Si la categoría (ej. `**mqtt**:`) ya existe, simplemente añade una coma, un espacio y la nueva ruta relativa al final de esa misma línea.
-     - Si la categoría no existe, crea una nueva línea con la viñeta y la ruta bajo la sección correspondiente (`## Entornos` o `## Temas`).
+   - **Regla de Inserción:** 
+     - La sección `## Contextos Técnicos (Código y Arquitectura)` NO DEBE ser modificada por este flujo.
+     - Si la categoría (ej. `**mqtt**:`) ya existe en la sección de historial correspondiente, añade una coma, un espacio y la nueva ruta relativa al final de esa misma línea.
+     - Si la categoría no existe, crea una nueva línea con la viñeta y la ruta bajo la sección correspondiente (`## Historial de Sesiones por Entorno` o `## Historial de Sesiones por Tema`).
    - No elimines ni sobrescribas ninguna ruta existente.
+
 
 6. **Sincronización Final:**
    - Imprime en la terminal del chat un breve resumen indicando:

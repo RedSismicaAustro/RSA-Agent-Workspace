@@ -1,3 +1,10 @@
+---
+proyecto: acelerografo
+tipo: contexto_tecnico
+repositorio: RSA-Acelerografo
+script: scripts/operation/mseed/extract_segment.py
+temas: [mseed, obspy, dsp]
+---
 # extract_segment.py — Contexto para Agentes IA
 
 > Script Python que extrae segmentos temporales de archivos miniSEED horarios. Dado un timestamp UTC y una duración en segundos, localiza automáticamente el archivo `.mseed` correcto y genera un nuevo archivo con el segmento recortado.

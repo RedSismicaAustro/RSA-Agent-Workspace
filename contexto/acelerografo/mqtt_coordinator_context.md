@@ -1,3 +1,10 @@
+---
+proyecto: acelerografo
+tipo: contexto_tecnico
+repositorio: RSA-Acelerografo
+script: scripts/operation/mqtt/mqtt_coordinator.py
+temas: [mqtt, telemetria, daemon, hardware]
+---
 # mqtt_coordinator.py — Contexto para Agentes IA
 
 > Agente reactivo MQTT que corre como daemon en Raspberry Pi. Publica telemetría (estado operacional + métricas de hardware), recibe comandos remotos y tiene placeholder para correlación regional de eventos sísmicos.
