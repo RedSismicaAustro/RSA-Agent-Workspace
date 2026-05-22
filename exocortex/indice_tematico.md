@@ -2,7 +2,7 @@
 
 ## Contextos Técnicos (Código y Arquitectura)
 - **acelerografo**: contexto/acelerografo/binary_to_mseed_context.md, contexto/acelerografo/extract_segment_context.md, contexto/acelerografo/firmware_context.md, contexto/acelerografo/gestor_archivos_acq_context.md, contexto/acelerografo/mqtt_coordinator_context.md, contexto/acelerografo/registro_continuo_context.md
-- **tig**: 
+- **tig**: contexto/tig/docker-compose-tig-mqtt_context.md, contexto/tig/docker-compose-nodered_context.md
 - **edge-device**: 
 
 ## Historial de Sesiones por Entorno
